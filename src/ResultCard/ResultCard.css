@@ -1,0 +1,83 @@
+/* ResultCard.css */
+
+.result-card {
+  width: 1200px; /* Set exact width */
+  max-width: 90%; /* Prevent overflow on small screens */
+  margin: 20px auto; /* Center horizontally */
+}
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+.result-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+.card-header {
+  background: #e0f7fa; /* Light blue background */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b2ebf2; /* Lighter blue border */
+}
+
+.card-title {
+  color: #00bcd4; /* Darker blue title */
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.save-button {
+  background: #00bcd4; /* Darker blue button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 40px;
+  text-align: center;
+}
+
+.lock-icon {
+  font-size: 4rem;
+  color: #546e7a; /* Gray lock icon */
+  margin-bottom: 20px;
+}
+
+.analyze-text {
+  font-size: 1.4rem;
+  color: #37474f; /* Darker gray text */
+  margin: 0;
+}
+
+.secure-text {
+  font-size: 1rem;
+  color: #78909c; /* Lighter gray text */
+  margin: 0;
+}
+
+/* Add space between cards */
+.results-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Increased from default 1rem */
+}
+
+/* If using margin instead */
+.vault-card {
+  margin-top: 2rem; /* Adjust this value as needed */
+}
+
+/* OR if using padding */
+.result-card {
+  padding-bottom: 2rem;
+}

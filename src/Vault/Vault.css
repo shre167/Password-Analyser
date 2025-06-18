@@ -1,0 +1,105 @@
+.vault-card {
+    /* Inherits from result-card */
+  }
+  
+  .vault-header {
+    background: #e0f7fa;
+    border-radius: 8px 8px 0 0;
+    padding: 15px 20px;
+    margin: -20px -20px 20px -20px;
+    border-bottom: 1px solid #b2ebf2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .upgrade-button {
+    background: none;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    color: #5f6368;
+    transition: all 0.2s ease;
+  }
+  
+  .upgrade-button:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  .upgrade-text {
+    color: #00796b;
+    font-weight: 600;
+  }
+  
+  .vault-body {
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .vault-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .vault-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  .vault-features li {
+    padding: 6px 0;
+    color: #5f6368;
+  }
+  
+  .pro-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #f1f3f4;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .vault-footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+    color: #9aa0a6;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .vault-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Optional: Add height or other styling as needed */
+    height: 50px; /* Example height */
+}
+
+.vault-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .vault-features {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 0 1rem 0;
+  }
+  
+  .vault-features li {
+    margin-bottom: 0.5rem;
+    text-align: center; /* Optional: center-align list items */
+  }
